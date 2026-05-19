@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lark-sync-project-496811",
+  "private_key_id": "edd3b649724736367850463e38e6b8d3e4df0535",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYevfhj0Pm0rr8\n+3DZvjctO1VB+PzbgseKNPRd9h9fSPZDclOn/kgsgHH7vp7Pc4zCcdlq71LzCB4v\nSGqNUPC+DtdyyDPBKEvls+j6/jcVFFtyl820BsMSaQuss/bXfhqc5DXJipwix71l\nanCbgiJKQVGbsZ+6xaHL9Als49jqedZiJkj+hEO8wMhv7fGpBpVu3M1Uo0NqNAHR\ndjUVq62k16r4H7x0SbFTZPqtD5TzR3ijxOZ7DvRq9cAmXnq1I1u9WtJ0yScx1wUN\nkqB8CFl3hLEnK+B7RVS3NuAd3AzkYj87xWspprwGkf4rLy2d5CbmZqYOC/7c3IrK\ntaXJXHAPAgMBAAECggEABtFYnTH14X8hhHYmx7TF6BbGSJ2e2Qr1XdTtHUhzFH0n\nxFgFanUHsN8at+L4/W+WL0mGn2eKJT1MNhEByhGSg2nUPzku6BZszX8tBzqaYX+S\noblGMTVFT38fbwD79S1ziR1m1EIZSL8hp+ACS+N9UPldqJmffjJbNiEpatSCMGA3\nGWgTGIvkLyqfYYfaauzSpjUD4sw3G/dHhaw5wTjS10+IY89WWM3u3fwTflop8WpA\nfcqaEoLXLwM7K9CWZujaA17czwF4/oinxpqiwtFVylN9WFMrhaQeeD6tri0QO64V\n0CE+OA+W+dWdj9MTkKt0mmCMSdbdOdQpo402qI5wgQKBgQD0qeszMwZO8QyQ4xY8\nplWPUXEEBJm57kKdLyk6cSBS0Axh3ek2eyS87tI3pmi7IVKhn7u7kprgrSJPRHgD\nl8oVcJCxFzPkqJdlV7zxaFF3kxlz3zrBhO2H68BHUXYm1PLX+uhgUe5Tev7q/GwF\nx6QNpcmvdBwmJv7A8ccequecgwKBgQDigsB67VqkC1sYRnzsO1gFvTbwCJU1Ht8Z\nmeXbNRfABhyv4bBNZcLDSWrjeA8AEuyqW/ZU8MY5N5KsiR+9oGsFR7g/Zbv1I9Wp\nuYEsaoYv02RVnTYZ5oLy84HE2PT6zifGuwbr69ZLl+d9q7TX/g/RFkzBt1A15VJx\nkp/duJ1ghQKBgE0+dE5m1qAHxJLdz0B4t1yXNtow5aPpEEj2Acs8uhrLKo2fdSjJ\nOjEYKXB+bmReQetbNfcjcxhqMQHbuRRRUPDx6AyxKaYQgDPzvmhtKgNZgtitaqx8\nXk3iZYNeubHK25zKz6DRXTAoDeF8rlIo1KemZwWo39Y/y4B5FQeep58nAoGBALDS\nER/lGdTlaH9Sx0JCMTyJsNFAYfnN16tMkDrG/3tPSiWisNY6kgeQ0HgxyMPuAgIb\nN/im3Jbd4wn9IWIOUH0Wt6YF7Ow4xRpxTX02yvmas8CBsTIW2DKAFNVt6A/Bzxs7\n9PNGb0sjkfpwiAP0uLQoDFNMnrj0A5/VLicPbwthAoGAdhzM5AtVSZivCBOuIbRT\nsDsW57X1wUcSTWub8Nx/nUnIMjyxI2aWgi6fP9MhWFs3xn1DXYLZYM24hbLBCXiU\nGIxFoqbSC/fwRzSUxA+IGAZEDl5gXhyvYHwqpHqombUy6vTpkrppWSdGIQiXspzC\nOMSS/N65RW4vUduPQcOo3P0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lark-bot@lark-sync-project-496811.iam.gserviceaccount.com",
+  "client_id": "118328711186983283167",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lark-bot%40lark-sync-project-496811.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
