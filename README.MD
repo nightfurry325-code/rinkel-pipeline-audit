@@ -1,23 +1,26 @@
-# Automated Data Pipeline & Synchronization Audit System
+# Rinkel Pipeline Audit Engine
 
-An advanced, lightweight Python-based ETL (Extract, Transform, Load) and data synchronization system designed to operate efficiently within localized terminal environments (including Linux/Termux). This project automates seamless data processing, API interactions, and live data integrity checks.
+Automated, scalable, and production-ready pipeline for Rinkel call data auditing. This system ensures seamless data fetching, deduplication, and archival, designed for high-efficiency enterprise environments.
 
 ## 🚀 Key Features
-* **Automated Data ETL:** Extracts high-volume raw data, transforms it through strict processing pipelines, and structures it into optimized formats.
-* **Live Integration:** Seamless connection with external storage layers, remote APIs, and dynamic spreadsheet synchronization.
-* **Comprehensive Audit Engine:** Built-in error logging and data integrity validation to prevent telemetry gaps or overlapping data entries.
-* **Environment Agnostic:** Fully optimized to run as a reliable command-line background utility via Termux on Android or remote Linux servers.
+- **Automated Fetching:** Direct integration with Rinkel API to capture real-time call events.
+- **Intelligent Deduplication:** Prevents duplicate entries using a robust indexing mechanism.
+- **Error Handling:** Built-in alert system (Telegram) to notify on API failures or missing data.
+- **Serverless Architecture:** Fully automated on GitHub Actions; no server maintenance required.
+- **Modular Design:** Built for easy integration with OpenAI Whisper for transcription and Google Drive for storage.
 
-## 🛠️ Tech Stack & Architecture
-* **Core Language:** Python 3.x
-* **Version Control:** Git & GitHub Workflow
-* **Environment:** Linux CLI / Termux Terminal
-* **Data Formatting:** JSON, JSONL, and Structured Data Formats
+## ⚙️ Technical Workflow
+1. **Fetch:** Pulls raw call logs from Rinkel API.
+2. **Validate:** Checks against index to ensure data integrity.
+3. **Process:** Normalizes data into clean `.jsonl` records.
+4. **Notify:** Real-time status updates via Telegram.
+5. **Sync:** Prepares data for Google Drive and Whisper API integration.
 
-## 📋 Project Structure
-```text
-proyek_sinkronisasi/
-├── core_engine.py       # Main orchestration logic for data pipeline
-├── data_processor.py    # Transformation and data cleansing module
-├── config_gateway.json  # Environment and endpoint management structures
-└── README.md            # System documentation and deployment guide
+## 🛠 Tech Stack
+- **Language:** Python
+- **Environment:** GitHub Actions (Serverless)
+- **Data Format:** JSONL
+- **Integration Ready:** OpenAI Whisper API, Google Drive API
+
+---
+*Built with passion for automation by Feri.*
