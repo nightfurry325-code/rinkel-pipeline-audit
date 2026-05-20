@@ -14,6 +14,9 @@ An advanced, lightweight Python-based ETL (Extract, Transform, Load) and data sy
 * **Environment:** Linux CLI / Termux Terminal
 * **Data Formatting:** JSON, JSONL, and Structured Data Formats
 
+ ## 📊 Architectural Flow
+![Rinkel Pipeline Flow](pipeline_flow.png)
+
 ## 📋 Project Structure
 ```text
 proyek_sinkronisasi/
