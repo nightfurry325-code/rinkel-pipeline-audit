@@ -26,12 +26,12 @@ jobs:
       - name: Execute Core Engine Pipeline
         run: |
           python core_engine.py
-
+    
       - name: Commit and Push Clean JSONL Changes
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add processed_calls.json
-          git commit -m "chore: automated daily data pipeline update [skip ci]" || exit 0
-          git push
+         git config --global user.name "GitHub Actions Bot"
+         git config --global user.email "actions@github.com"
+         git add processed_calls.json
+         git diff --quiet && git diff --staged --quiet || (git commit -m "chore: automated daily data pipeline update" && git push)
+
 
